@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="">
       <div className="navbar bg-base-100 font-lexend">
         <div className="navbar-start">
           <div className="dropdown">
@@ -41,7 +41,7 @@ const Nav = () => {
             </li>
             </ul>
           </div>
-          <h1 className="text-3xl font-bold text-black">Chef's Table</h1>
+          <h1 className="text-3xl font-bold text-black">Chef&#39;s Table</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-5">

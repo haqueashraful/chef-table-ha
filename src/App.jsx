@@ -3,10 +3,12 @@ import Nav from "./Component/Nav";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Banner />
-    </>
+    <div className=" container mx-auto">
+      <div className="mx-[100px]">
+        <Nav />
+        <Banner />
+      </div>
+    </div>
   );
 }
 
