@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.font-fira {
+  --font-family: 'fira', sans-serif;
+}
+
+.font-lexend {
+  --font-family: 'lexend', serif;
+}
+
 .banner-btn {
   font-size: 20px;
   font-weight: 600;

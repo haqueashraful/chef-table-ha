@@ -1,5 +1,6 @@
 import { faCircleUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../index.css"
 
 const Nav = () => {
   return (

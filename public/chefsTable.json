@@ -1,0 +1,98 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co/PxgrnFS/Grilled-Lemon-Herb-Chicken.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Grilled Lemon Herb Chicken",
+    "short_description": "Juicy and flavorful grilled chicken marinated in lemon and herbs.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml lemon juice",
+      "2 cloves garlic",
+      "2 tbsp olive oil",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 30,
+    "calories": 320 
+  },
+  {
+    "recipe_image": "https://i.ibb.co/y6RNkG3/vegetarian-pad-thai.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Vegetarian Pad Thai",
+    "short_description": "Classic Thai noodle dish with a vegetarian twist.",
+    "ingredients": [
+      "200 g rice noodles",
+      "1 red bell pepper",
+      "1 carrot",
+      "100 g bean sprouts",
+      "50 g peanuts",
+      "3 tbsp soy sauce"
+    ],
+    "preparing_time": 25,
+    "calories": 280 
+  },
+  {
+    "recipe_image": "https://i.ibb.co/2gWQJj2/Caprese-salad.png",
+    "recipe_id": 3,
+    "recipe_name": "Caprese Salad",
+    "short_description": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "4 large tomatoes",
+      "200 g fresh mozzarella",
+      "1/4 cup fresh basil leaves",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 15,
+    "calories": 180 
+  },
+  {
+    "recipe_image": "https://i.ibb.co/vPDBnjR/Spaghetti-Aglio-Olio.webp",
+    "recipe_id": 4,
+    "recipe_name": "Spaghetti Aglio e Olio",
+    "short_description": "A classic Italian pasta dish with garlic, olive oil, and red pepper flakes.",
+    "ingredients": [
+      "300 g spaghetti",
+      "4 cloves garlic",
+      "1/4 cup olive oil",
+      "1/2 tsp red pepper flakes",
+      "1/4 cup chopped parsley",
+      "Grated Parmesan cheese for serving"
+    ],
+    "preparing_time": 20,
+    "calories": 350 
+  },
+  {
+    "recipe_image": "https://i.ibb.co/fFLY4FW/Mango-Avocado-Salsad.jpg",
+    "recipe_id": 5,
+    "recipe_name": "Mango Avocado Salsad",
+    "short_description": "A vibrant and refreshing salsa with mangoes, avocados, and lime. there has some  thats gives your new flavour.",
+    "ingredients": [
+      "2 ripe mangoes",
+      "2 ripe avocados",
+      "1/4 cup red onion",
+      "1/4 cup cilantro",
+      "1 jalapeno pepper",
+      "Juice of 2 limes"
+    ],
+    "preparing_time": 10,
+    "calories": 150 
+  },
+  {
+    "recipe_image": "https://i.ibb.co/kJvxQxF/Greek-Quinoa-Salad.jpg",
+    "recipe_id": 6,
+    "recipe_name": "Greek Quinoa Salad",
+    "short_description": "A nutritious and delicious salad packed with quinoa, cucumbers, tomatoes, and feta cheese.",
+    "ingredients": [
+      "1 cup quinoa",
+      "1 cucumber",
+      "1 cup cherry tomatoes",
+      "1/2 cup kalamata olives",
+      "1/2 cup crumbled feta cheese",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": 25,
+    "calories": 280 
+  }
+]
