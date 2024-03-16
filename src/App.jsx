@@ -5,7 +5,7 @@ import Nav from "./Component/Nav";
 function App() {
   return (
     <div className=" container mx-auto">
-      <div className="mx-[80px] space-y-12">
+      <div className="lg:mx-[80px] space-y-12">
         <Nav />
         <Banner />
         <Main />

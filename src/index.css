@@ -31,11 +31,12 @@
 .main-btn {
   font-size: 18px;
   font-weight: 500;
-  background: rgb(11, 229, 138);
+  background: rgb(0, 255, 149);
   color: black;
   padding: 5px 12px;
   border-radius: 50px;
 }
 .main-btn:hover {
-  color: black;
+  color: white;
+  background:rgba(60, 228, 234, 0.79) ;
 }

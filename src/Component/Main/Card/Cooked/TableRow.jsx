@@ -4,11 +4,11 @@ const TableRow = ({data, ind, handelPrepare}) => {
     return (
         <>
           <tr className=" bg-[#28282808]">
-                <td className="p-2">{ind+1}</td>
-                <td className="p-2">{recipe_name}</td>
-                <td className="p-2">{preparing_time} minutes</td>
-                <td className="p-2">{calories} calories</td>
-                <td className="p-2"><button onClick={()=>handelPrepare(recipe_name, preparing_time, calories)} className="main-btn">Preparing</button></td>
+                <td className="lg:p-2 md:p-2 p-1">{ind+1}</td>
+                <td className="lg:p-2 md:p-2 p-1">{recipe_name}</td>
+                <td className="lg:p-2 md:p-2 p-1">{preparing_time} minutes</td>
+                <td className="lg:p-2 md:p-2 p-1">{calories} calories</td>
+                <td className="lg:p-2 md:p-2 p-0"><button onClick={()=>handelPrepare(recipe_name, preparing_time, calories)} className="main-btn">Preparing</button></td>
         </tr>
         </>
     );

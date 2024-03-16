@@ -12,12 +12,12 @@ const Card = ({ data, ind, handleClick }) => {
   
   return (
     <div>
-      <div className=" p-4 bg-white border rounded-lg max-h-[635px] min-h-[635px]">
+      <div className=" p-4 bg-white border rounded-lg lg:max-h-[635px] lg:min-h-[635px]">
         <figure>
           <img
-            className=" w-full h-[200px] rounded-lg"
+            className=" w-full h-[200px] rounded-lg image-full"
             src={recipe_image}
-            alt=""
+            alt={recipe_name}
           />
         </figure>
         <div className=" space-y-3">
@@ -76,7 +76,7 @@ const Card = ({ data, ind, handleClick }) => {
                 d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
               />
             </svg>
-            {calories}calories
+            {calories} calories
           </p>
         </div>
         <div>

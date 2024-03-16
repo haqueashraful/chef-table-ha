@@ -3,15 +3,15 @@ import "../index.css"
 
 const Banner = () => {
   return (
-    <div className=" font-lexend text-center">
-      <div
-        style={{
+    <div  style={{
           backgroundImage: `url(${img})`
-        }}
-        className="bg-[#00000033] bg-cover bg-no-repeat px-[180px] py-[110px] rounded-2xl"
+        }} className=" font-lexend text-center bg-cover bg-no-repeat">
+      <div
+      className="bg-[#00000084] px-5  lg:px-[180px] py-3 lg:py-[110px] rounded-2xl"
+       
       >
         <div className="space-y-5">
-          <h1 className=" text-5xl font-bold text-white ">
+          <h1 className=" text-2xl lg:text-5xl font-bold text-white ">
             Discover an exceptional cooking class tailored for you!
           </h1>
           <p className=" text-lg font-normal text-white">
