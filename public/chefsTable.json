@@ -1,6 +1,6 @@
 [
   {
-    "recipe_image": "https://i.ibb.co/PxgrnFS/Grilled-Lemon-Herb-Chicken.jpg",
+    "recipe_image": "https://i.ibb.co/5Bfg6KG/grilled-chicken-breasts-with-vegetables.jpg",
     "recipe_id": 1,
     "recipe_name": "Grilled Lemon Herb Chicken",
     "short_description": "Juicy and flavorful grilled chicken marinated in lemon and herbs.",
@@ -16,7 +16,7 @@
     "calories": 320 
   },
   {
-    "recipe_image": "https://i.ibb.co/y6RNkG3/vegetarian-pad-thai.jpg",
+    "recipe_image": "https://i.ibb.co/yqxrHZ0/asian-dish-plate-with-chopsticks-vegetables.jpg",
     "recipe_id": 2,
     "recipe_name": "Vegetarian Pad Thai",
     "short_description": "Classic Thai noodle dish with a vegetarian twist.",
@@ -32,7 +32,7 @@
     "calories": 280 
   },
   {
-    "recipe_image": "https://i.ibb.co/2gWQJj2/Caprese-salad.png",
+    "recipe_image": "https://i.ibb.co/StM6VnB/apetizer-salad-with-mozarella-tomato-rolls.jpg",
     "recipe_id": 3,
     "recipe_name": "Caprese Salad",
     "short_description": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
@@ -48,7 +48,7 @@
     "calories": 180 
   },
   {
-    "recipe_image": "https://i.ibb.co/vPDBnjR/Spaghetti-Aglio-Olio.webp",
+    "recipe_image": "https://i.ibb.co/YLdGvNp/authentic-italian-pasta.jpg",
     "recipe_id": 4,
     "recipe_name": "Spaghetti Aglio e Olio",
     "short_description": "A classic Italian pasta dish with garlic, olive oil, and red pepper flakes.",
@@ -64,7 +64,7 @@
     "calories": 350 
   },
   {
-    "recipe_image": "https://i.ibb.co/fFLY4FW/Mango-Avocado-Salsad.jpg",
+    "recipe_image": "https://i.ibb.co/mDvHddG/kiwi-cocktail-wooden-board-lemon-sugar-syrop-ice-top-view.jpg",
     "recipe_id": 5,
     "recipe_name": "Mango Avocado Salsad",
     "short_description": "A vibrant and refreshing salsa with mangoes, avocados, and lime. there has some  thats gives your new flavour.",
@@ -80,7 +80,7 @@
     "calories": 150 
   },
   {
-    "recipe_image": "https://i.ibb.co/kJvxQxF/Greek-Quinoa-Salad.jpg",
+    "recipe_image": "https://i.ibb.co/1YNWHtV/tabbouleh-salad.jpg",
     "recipe_id": 6,
     "recipe_name": "Greek Quinoa Salad",
     "short_description": "A nutritious and delicious salad packed with quinoa, cucumbers, tomatoes, and feta cheese.",

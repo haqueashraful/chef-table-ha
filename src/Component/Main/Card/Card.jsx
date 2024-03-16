@@ -15,7 +15,7 @@ const Card = ({ data, handleClick }) => {
       <div className=" p-4 bg-white border rounded-lg lg:max-h-[635px] lg:min-h-[635px]">
         <figure>
           <img
-            className=" w-full h-[200px] rounded-lg image-full"
+            className=" w-full h-[200px] rounded-lg image-full bg-[#00000084]"
             src={recipe_image}
             alt={recipe_name}
           />

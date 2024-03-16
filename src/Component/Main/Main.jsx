@@ -35,8 +35,9 @@ const Main = () => {
     if (!isDuplicate) {
       const newArray = [...clickedData, newRecipe];
       setClickedData(newArray);
+      toast.success("Successfully added🥰")
     } else {
-      toast("already exist");
+      toast.error("Already Exist!😒");
     }
   };
 
