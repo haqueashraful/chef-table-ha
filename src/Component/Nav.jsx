@@ -4,7 +4,7 @@ import "../index.css"
 
 const Nav = () => {
   return (
-    <div className="">
+    <div className=" pt-10">
       <div className="navbar bg-base-100 font-lexend">
         <div className="navbar-start">
           <div className="dropdown px-0">
@@ -61,8 +61,8 @@ const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end flex justify-end items-center gap-2">
-          <label className=" input flex items-center py-0 h-8  bg-[#150B2B0D] focus:border-none focus-within:border-none focus-within:outline-none focus:outline-none px-3 rounded-full gap-2 text-sm">
-            <input type="text" className="grow" placeholder="Search" />
+          <label className=" input  w-2/3 flex items-center py-0 h-8  bg-[#150B2B0D] focus:border-none focus-within:border-none focus-within:outline-none focus:outline-none px-3 rounded-full gap-2 text-sm">
+            <input type="text" className="grow w-2/3" placeholder="Search" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"

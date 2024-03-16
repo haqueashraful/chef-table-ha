@@ -12,7 +12,7 @@ const Card = ({ data, handleClick }) => {
 
   return (
     <div>
-      <div className=" p-4 bg-white border rounded-lg lg:max-h-[635px] lg:min-h-[635px]">
+      <div className=" p-4 bg-white border rounded-lg lg:max-h-[658px] lg:min-h-[658px] md:max-h-[658px] md:min-h-[658px]">
         <figure>
           <img
             className=" w-full h-[200px] rounded-lg image-full bg-[#00000084]"
@@ -21,10 +21,10 @@ const Card = ({ data, handleClick }) => {
           />
         </figure>
         <div className=" space-y-3">
-          <h1 className=" font-lexend font-semibold text-xl text-black">
+          <h1 className=" font-lexend font-semibold text-2xl text-black mt-4">
             {recipe_name}
           </h1>
-          <p className=" font-fira">{short_description}</p>
+          <p className=" font-fira min-h-[72px]">{short_description}</p>
           <div className=" py-2 border-y-2 border-[#2828281A]">
             <h2 className=" font-lexend text-lg font-medium text-black">
               Ingredients: {ingredients.length}
