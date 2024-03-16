@@ -1,15 +1,15 @@
 import "../../../index.css";
-const Card = ({ data, ind, handleClick }) => {
+import PropTypes from "prop-types";
+const Card = ({ data, handleClick }) => {
   const {
     recipe_image,
-    recipe_id,
     recipe_name,
     short_description,
     ingredients,
     preparing_time,
     calories,
   } = data;
-  
+
   return (
     <div>
       <div className=" p-4 bg-white border rounded-lg lg:max-h-[635px] lg:min-h-[635px]">
@@ -80,11 +80,28 @@ const Card = ({ data, ind, handleClick }) => {
           </p>
         </div>
         <div>
-          <button onClick={()=>handleClick(recipe_name, preparing_time, calories)} className="main-btn font-lexend">Want to Cook</button>
+          <button
+            onClick={() => handleClick(recipe_name, preparing_time, calories)}
+            className="main-btn font-lexend"
+          >
+            Want to Cook
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
+Card.propTypes = {
+  data: PropTypes.shape({
+    recipe_image: PropTypes.string.isRequired,
+    recipe_id: PropTypes.number.isRequired,
+    recipe_name: PropTypes.string.isRequired,
+    short_description: PropTypes.string.isRequired,
+    ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
+    preparing_time: PropTypes.number.isRequired,
+    calories: PropTypes.number.isRequired
+  }).isRequired,
+  handleClick: PropTypes.func.isRequired
+};
 export default Card;

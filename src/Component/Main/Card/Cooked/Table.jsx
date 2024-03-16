@@ -1,4 +1,4 @@
-import { data } from "autoprefixer";
+import PropTypes from "prop-types"
 import TableRow from "./TableRow";
 
 const Table = ({ clickedData, handelPrepare, prepared }) => {
@@ -79,5 +79,12 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
     </div>
   );
 };
+
+Table.propTypes = {
+  clickedData: PropTypes.array.isRequired,
+  prepared: PropTypes.array.isRequired,
+  handelPrepare: PropTypes.func
+
+}
 
 export default Table;

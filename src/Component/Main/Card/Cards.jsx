@@ -1,4 +1,5 @@
 import Card from "./Card";
+import PropTypes from 'prop-types'
 
 const Cards = ({cardData, handleClick}) => {
    
@@ -10,5 +11,10 @@ const Cards = ({cardData, handleClick}) => {
         </div>
     );
 };
+
+Cards.propTypes = {
+    cardData: PropTypes.array,
+    handleClick: PropTypes.func
+}
 
 export default Cards;

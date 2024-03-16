@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 const TableRow = ({data, ind, handelPrepare}) => {
     const {recipe_name, preparing_time, calories}=data;
     return (
@@ -13,5 +13,11 @@ const TableRow = ({data, ind, handelPrepare}) => {
         </>
     );
 };
+
+TableRow.propTypes={
+    data: PropTypes.array,
+    ind: PropTypes.number,
+    handelPrepare: PropTypes.func
+}
 
 export default TableRow;
