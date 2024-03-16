@@ -4,8 +4,8 @@ import "../index.css"
 const Banner = () => {
   return (
     <div  style={{
-          backgroundImage: `url(${img})`
-        }} className=" font-lexend text-center bg-cover bg-no-repeat">
+          backgroundImage: `url(${img})`,
+        }} className=" font-lexend text-center bg-cover bg-center bg-no-repeat rounded-lg">
       <div
       className="bg-[#00000084] px-5  lg:px-[180px] py-3 lg:py-[110px] rounded-2xl"
        

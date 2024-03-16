@@ -7,8 +7,8 @@ const Nav = () => {
     <div className="">
       <div className="navbar bg-base-100 font-lexend">
         <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div className="dropdown px-0">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden px-0 pr-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -42,7 +42,7 @@ const Nav = () => {
             </li>
             </ul>
           </div>
-          <h1 className="text-3xl font-bold text-black">Chef&#39;s Table</h1>
+          <h1 className="lg:text-3xl md:text-3xl text-xl font-bold text-black">Chef&#39;s Table</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-5">

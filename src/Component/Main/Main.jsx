@@ -43,7 +43,7 @@ const Main = () => {
 
   const handelPrepare = (recipe_name, preparing_time, calories) => {
     const newPrepare = [...prepared, { recipe_name, preparing_time, calories }];
-
+    toast.success("Start Cooking😍😍")
     setPrepared(newPrepare);
 
     const updatedClickedData = clickedData.filter(
