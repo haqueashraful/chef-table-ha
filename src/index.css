@@ -41,9 +41,22 @@
   background:#11ab3a
 }
 
+.table-btn {
+  font-size: 14px;
+  font-weight: 500;
+  background: rgb(0, 255, 149);
+  color: black;
+  padding: 5px 12px;
+  border-radius: 50px;
+}
+.table-btn:hover {
+  color: white;
+  background:#11ab3a
+}
+
 
 @media (min-width: 300px) and (max-width: 475px) {
-  .banner-btn, .main-btn {
+  .banner-btn, .main-btn, .table-btn {
     font-size: 14px;
     padding: 4px 10px;
   }

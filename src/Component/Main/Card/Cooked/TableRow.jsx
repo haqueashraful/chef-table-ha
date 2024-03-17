@@ -8,7 +8,7 @@ const TableRow = ({data, ind, handelPrepare}) => {
                 <td className="lg:p-2 md:p-2 p-1">{recipe_name}</td>
                 <td className="lg:p-2 md:p-2 p-1">{preparing_time} minutes</td>
                 <td className="lg:p-2 md:p-2 p-1">{calories} calories</td>
-                <td className="lg:p-2 md:p-2 p-0"><button onClick={()=>handelPrepare(recipe_name, preparing_time, calories)} className="main-btn">Preparing</button></td>
+                <td className="lg:p-2 md:p-2 p-0"><button onClick={()=>handelPrepare(recipe_name, preparing_time, calories)} className="table-btn">Preparing</button></td>
         </tr>
         </>
     );

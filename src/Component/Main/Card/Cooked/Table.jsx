@@ -19,7 +19,7 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
             Want to cook: {clickedData.length}
           </h1>
           <hr />
-          <table className=" w-full text-left">
+          <table className=" w-full text-left table-auto">
             <thead>
               <tr>
                 <th className="p-2"></th>
@@ -45,7 +45,7 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
             Currently cooking: {prepared.length}
           </h1>
           <hr />
-          <table className=" w-full text-left">
+          <table className=" w-full text-left table-auto">
             <thead>
               <tr>
                 <th className="p-2"></th>
@@ -56,11 +56,11 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
             </thead>
             <tbody>
               {prepared.map((data, ind) => (
-                <tr key={ind} className="bg-[#28282808] shadow-md">
+                <tr key={ind} className="bg-[#28282808] shadow-md w-full">
                   <td className="p-2 text-black">{ind + 1}</td>
-                  <td className="p-2">{data.recipe_name}</td>
-                  <td className="p-2">{data.preparing_time} minutes</td>
-                  <td className="p-2">{data.calories} calories</td>
+                  <td className="p-2 grow">{data.recipe_name}</td>
+                  <td className="p-2 ">{data.preparing_time} <br /> minutes</td>
+                  <td className="p-2 ">{data.calories} <br /> calories</td>
                 </tr>
               ))}
               <tr>
