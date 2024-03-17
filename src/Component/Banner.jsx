@@ -1,7 +1,12 @@
+import { toast } from "react-toastify";
 import img from "../assets/bannerbg.png";
 import "../index.css"
 
 const Banner = () => {
+
+  const handleClick = ()=>{
+    toast.info("Opps! Nothings added.😔😔")
+  }
   return (
     <div  style={{
           backgroundImage: `url(${img})`,
@@ -21,8 +26,8 @@ const Banner = () => {
             When You <span className=" text-2xl font-black text-green-500 underline">Hover</span> ON Those Button There Background Will Change!
           </p>
           <div className=" flex justify-center items-center gap-5">
-            <button className="banner-btn font-lexend">Explore Now</button>
-            <button className="banner-btn font-lexend">Our Feedback</button>
+            <button onClick={handleClick} className="banner-btn font-lexend">Explore Now</button>
+            <button onClick={handleClick} className="banner-btn font-lexend">Our Feedback</button>
           </div>
         </div>
       </div>
