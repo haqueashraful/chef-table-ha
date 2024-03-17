@@ -3,8 +3,8 @@ const TableRow = ({data, ind, handelPrepare}) => {
     const {recipe_name, preparing_time, calories}=data;
     return (
         <>
-          <tr className=" bg-[#28282808]">
-                <td className="lg:p-2 md:p-2 p-1">{ind+1}</td>
+          <tr className=" bg-[#28282808] shadow-md">
+                <td className="lg:p-2 md:p-2 p-1 text-black">{ind+1}</td>
                 <td className="lg:p-2 md:p-2 p-1">{recipe_name}</td>
                 <td className="lg:p-2 md:p-2 p-1">{preparing_time} minutes</td>
                 <td className="lg:p-2 md:p-2 p-1">{calories} calories</td>

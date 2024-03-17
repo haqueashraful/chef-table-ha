@@ -66,11 +66,11 @@ const Main = () => {
         </p>
       </div>
 
-      <div className=" grid lg:grid-cols-8 md:grid-cols-1 grid-cols-1 gap-2 w-full">
-        <div className=" lg:col-span-5">
+      <div className=" grid lg:grid-cols-1 xl:grid-cols-8 md:grid-cols-1 grid-cols-1 gap-2 w-full">
+        <div className=" xl:col-span-5">
           <Cards cardData={cardData} handleClick={handleClick} />
         </div>
-        <div className=" lg:col-span-3 w-full">
+        <div className=" xl:col-span-3 w-full">
           <Table
             clickedData={clickedData}
             handelPrepare={handelPrepare}

@@ -33,10 +33,19 @@
   font-weight: 500;
   background: rgb(0, 255, 149);
   color: black;
-  padding: 5px 12px;
+  padding: 5px 18px;
   border-radius: 50px;
 }
 .main-btn:hover {
   color: white;
-  background:rgba(60, 228, 234, 0.79) ;
+  background:rgb(17, 171, 58)
 }
+
+
+@media (min-width: 300px) and (max-width: 475px) {
+  .banner-btn, .main-btn {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+}
+

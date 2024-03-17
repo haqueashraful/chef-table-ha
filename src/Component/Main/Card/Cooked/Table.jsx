@@ -2,7 +2,6 @@ import PropTypes from "prop-types"
 import TableRow from "./TableRow";
 
 const Table = ({ clickedData, handelPrepare, prepared }) => {
-  console.log(prepared);
 
   const totalTime = prepared.reduce(
     (total, recipes) => total + recipes.preparing_time,
@@ -14,7 +13,7 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
   );
   return (
     <div>
-      <div className=" border rounded-lg">
+      <div className=" border rounded-lg shadow-xl">
         <div>
           <h1 className=" text-center font-lexend font-bold text-3xl my-2">
             Want to cook: {clickedData.length}
@@ -57,8 +56,8 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
             </thead>
             <tbody>
               {prepared.map((data, ind) => (
-                <tr key={ind} className="bg-[#28282808]">
-                  <td className="p-2">{ind + 1}</td>
+                <tr key={ind} className="bg-[#28282808] shadow-md">
+                  <td className="p-2 text-black">{ind + 1}</td>
                   <td className="p-2">{data.recipe_name}</td>
                   <td className="p-2">{data.preparing_time} minutes</td>
                   <td className="p-2">{data.calories} calories</td>

@@ -12,7 +12,7 @@ const Card = ({ data, handleClick }) => {
 
   return (
     <div>
-      <div className=" p-4 bg-white border rounded-lg lg:max-h-[658px] lg:min-h-[658px] md:max-h-[658px] md:min-h-[658px]">
+      <div className=" p-4 bg-white border rounded-lg lg:max-h-[658px] lg:min-h-[658px] md:max-h-[658px] md:min-h-[658px] shadow-xl">
         <figure>
           <img
             className=" w-full h-[200px] rounded-lg image-full bg-[#00000084]"

@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div  style={{
           backgroundImage: `url(${img})`,
-        }} className=" font-lexend text-center bg-cover bg-center bg-no-repeat rounded-lg">
+        }} className=" font-lexend text-center bg-cover bg-center bg-no-repeat rounded-lg shadow-2xl">
       <div
       className="bg-[#00000084] px-5  lg:px-[180px] py-14 lg:py-[110px] rounded-2xl"
        
@@ -17,7 +17,8 @@ const Banner = () => {
           <p className="text-sm lg:text-lg font-normal text-white">
             Learn and Master Basic Programming, Data Structures, Algorithm, OOP,
             Database and solve 500+ coding problems to become an exceptionally
-            well world-class Programmer.
+            well world-class Programmer. <br />
+            When You <span className=" text-2xl font-black text-green-500 underline">Hover</span> ON Those Button There Background Will Change!
           </p>
           <div className=" flex justify-center items-center gap-5">
             <button className="banner-btn font-lexend">Explore Now</button>
