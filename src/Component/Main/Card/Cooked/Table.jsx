@@ -18,7 +18,7 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
           <h1 className=" text-center font-lexend font-bold text-3xl my-2">
             Want to cook: {clickedData.length}
           </h1>
-          <hr />
+          <div className="w-2/3 mx-auto divider my-0"/>
           <table className=" w-full text-left table-auto">
             <thead>
               <tr>
@@ -44,7 +44,7 @@ const Table = ({ clickedData, handelPrepare, prepared }) => {
           <h1 className=" text-center font-lexend font-bold text-3xl my-2">
             Currently cooking: {prepared.length}
           </h1>
-          <hr />
+          <div className="w-2/3 mx-auto divider my-0"/>
           <table className=" w-full text-left table-auto">
             <thead>
               <tr>
