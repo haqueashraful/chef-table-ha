@@ -76,7 +76,7 @@ const Nav = () => {
               />
             </svg>
           </label>
-          <a className="rounded-full py-1 px-2 text-center w-8 h-8 bg-[#0BE58A]"><FontAwesomeIcon icon={faCircleUser} /></a>
+          <a className="rounded-full py-1 px-2 text-center w-8 h-8 shadow-2xl bg-[#150B2B0D] hover:bg-[#0BE58A] text-[#0BE58A] hover:text-white"><FontAwesomeIcon className="" icon={faCircleUser} /></a>
         </div>
       </div>
     </div>
